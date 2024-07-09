@@ -22,7 +22,7 @@ public class MyServiceProxy {
     try {
 
       //START TRANSACTION
-      connection.setAutoCommit(true);
+      connection.setAutoCommit(false);
 
       //CALL SERVICE
       myService.insert();
